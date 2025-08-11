@@ -6,72 +6,60 @@ import img8 from '../../../../public/img1 (37).png'
 const Bay2 = () => {
     return (
         <div>
-            <table className="lg:w-[80%] my-[50px] mx-auto border-collapse">
-                <thead>
-                    <tr className="bg-yellow-500 text-black text-lg">
-                        <th className="text-left p-3">Included in the package</th>
-                        <th className="p-3">Complete management</th>
-                        <th className="p-3">Partial control</th>
-                    </tr>
-                </thead>
-                <tbody className="bg-black text-white">
-                    <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Real estate advertising</td>
-                        <td className="text-center">✓</td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                    <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Search for tenants</td>
-                        <td className="text-center">✓</td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                    <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Conclusion of a lease agreement</td>
-                        <td className="text-center">✓</td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                    <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Getting paid</td>
-                        <td className="text-center">✓</td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                    <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Key handover</td>
-                        <td className="text-center">✓</td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                    <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Payment processing</td>
-                        <td className="text-center">✓</td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                    <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Dealing with repair requests</td>
-                        <td className="text-center"></td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                    <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">DEWA connection (electricity/water)</td>
-                        <td className="text-center"></td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                      <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Key handover</td>
-                        <td className="text-center"></td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                      <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Handover</td>
-                        <td className="text-center"></td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                      <tr className="border-b hover:bg-gray-600 border-gray-700">
-                        <td className="p-3">Key </td>
-                        <td className="text-center"></td>
-                        <td className="text-center">✓</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div className="overflow-x-auto">
+                <table className="lg:w-[80%] my-[50px] mx-auto border-collapse min-w-[600px]">
+                    <thead>
+                        <tr className="bg-yellow-500 text-black text-lg">
+                            <th className="text-left p-3">Included in the package</th>
+                            <th className="p-3">Complete management</th>
+                            <th className="p-3">Partial control</th>
+                        </tr>
+                    </thead>
+                    <tbody className="bg-black text-white">
+                        <tr className="border-b hover:bg-gray-600 border-gray-700">
+                            <td className="p-3">Real estate advertising</td>
+                            <td className="text-center">✓</td>
+                            <td className="text-center">✓</td>
+                        </tr>
+                        <tr className="border-b hover:bg-gray-600 border-gray-700">
+                            <td className="p-3">Search for tenants</td>
+                            <td className="text-center">✓</td>
+                            <td className="text-center">✓</td>
+                        </tr>
+                        <tr className="border-b hover:bg-gray-600 border-gray-700">
+                            <td className="p-3">Conclusion of a lease agreement</td>
+                            <td className="text-center">✓</td>
+                            <td className="text-center">✓</td>
+                        </tr>
+                        <tr className="border-b hover:bg-gray-600 border-gray-700">
+                            <td className="p-3">Getting paid</td>
+                            <td className="text-center">✓</td>
+                            <td className="text-center">✓</td>
+                        </tr>
+                        <tr className="border-b hover:bg-gray-600 border-gray-700">
+                            <td className="p-3">Key handover</td>
+                            <td className="text-center">✓</td>
+                            <td className="text-center">✓</td>
+                        </tr>
+                        <tr className="border-b hover:bg-gray-600 border-gray-700">
+                            <td className="p-3">Payment processing</td>
+                            <td className="text-center">✓</td>
+                            <td className="text-center">✓</td>
+                        </tr>
+                        <tr className="border-b hover:bg-gray-600 border-gray-700">
+                            <td className="p-3">Dealing with repair requests</td>
+                            <td className="text-center"></td>
+                            <td className="text-center">✓</td>
+                        </tr>
+                        <tr className="border-b hover:bg-gray-600 border-gray-700">
+                            <td className="p-3">DEWA connection (electricity/water)</td>
+                            <td className="text-center"></td>
+                            <td className="text-center">✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
 
             <div className='my-[100px]'>
                 <div className='flex justify-around items-center my-[30px]'>
